@@ -19,4 +19,12 @@ Write a function called isLeapYear to determine if a year is a leap year. A leap
 * isLeapYear(1997) -> False
 
 # 
+def leap_year (year):
+  if year%4==0:
+    print("is_LeapYear(" + str(year) + ") -> " + "true")
+  else:
+    print("is_LeapYear(" + str(year) + ") -> " + "false")
+
+user_year=input("Enter the year")
+leap_year(user_year)
 [Back](../README.md)
